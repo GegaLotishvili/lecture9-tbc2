@@ -1,0 +1,44 @@
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.bigbox {
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.smallbox {
+    width: 100px;
+    height: 100px;
+}
+.yellow {
+    background-color: yellow;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.orange {
+    background-color: orange;
+}
+
+.myicon {
+    font-size: 70px;
+    color: gray;
+    transition: 0.5s;
+}
+
+.myicon:hover {
+    font-size: 90px;
+    color: red;
+}
